@@ -22,9 +22,9 @@
 
 5. <code>git commit -m "message"</code> : is same as 4  but in here you can pass your desired message the this operation.</p>
 
-6. <code>git remote add origin <remote link></code> : is a git command in where we add remote repository link in the command</p>
+6. <code>git remote add origin<remote link></code> : is a git command in where we add remote repository link in the command</p>
 
-7. <code>git remote set-url origin  <remote link></code> : is a git command which is use for set remote origin link if current link is unavailable or deleted</p>
+7. <code>git remote set-url origin<remote link></code> : is a git command which is use for set remote origin link if current link is unavailable or deleted</p>
 
 8. <code>git merge</code> :
 
@@ -56,7 +56,7 @@
 
 4. <code>git checkout <branch name></code> : is a git branch command which will change branch and will move into provided branch name if it created and exit</p>
 
-5. <code>`git branch -d <branch name>`</code> : is a git branch command which will delete branch but can not delete current brancg name.</p>
+5. <code>git branch -d <branch name></code> : is a git branch command which will delete branch but can not delete current brancg name.</p>
 
 6. <code>git switch <branch name></code> : is a git branch command which is use for switch or move from one branch to another. In locally every branch can be have separate project. By switching you can move or switch from one branch to another by this command.</p>
 
