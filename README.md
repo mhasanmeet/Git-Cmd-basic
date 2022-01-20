@@ -52,13 +52,13 @@
 
 2. <code>git branch <branch name></code> :is a git branch command which will create a branch in the current director</p>
 
-3. <code>git branch -M/-m <branch name></code> : is a git branch command which will merge existing current branch name to your provided name. -M or -m means mearge.</p>
+3. <code>git branch -M/-m<branch name></code> : is a git branch command which will merge existing current branch name to your provided name. -M or -m means mearge.</p>
 
-4. <code>git checkout <branch name></code> : is a git branch command which will change branch and will move into provided branch name if it created and exit</p>
+4. <code>git checkout<branch name></code> : is a git branch command which will change branch and will move into provided branch name if it created and exit</p>
 
-5. <code>git branch -d <branch name></code> : is a git branch command which will delete branch but can not delete current brancg name.</p>
+5. <code>git branch -d<branch name></code> : is a git branch command which will delete branch but can not delete current brancg name.</p>
 
-6. <code>git switch <branch name></code> : is a git branch command which is use for switch or move from one branch to another. In locally every branch can be have separate project. By switching you can move or switch from one branch to another by this command.</p>
+6. <code>git switch<branch name></code> : is a git branch command which is use for switch or move from one branch to another. In locally every branch can be have separate project. By switching you can move or switch from one branch to another by this command.</p>
 
 --------------------
 <code></code>
