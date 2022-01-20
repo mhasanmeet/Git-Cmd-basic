@@ -1,7 +1,7 @@
 # Git & Command basic
 
 ## Basic Computer Commands
-1. <code>touch index.html</code>: is a command which is use to create make file. <code>touch index.html</code> means you're going to create index.html file</p>
+1. <code>touch</code> : is a command which is use to create make file. <code>touch index.html</code> means you're going to create index.html file</p>
 
 2. `touch file1 file2 file3`
 <p><code>touch file1 file2 file3</code> is a command which is same like number 1. But this way you can create multiple file at a time. </p>
