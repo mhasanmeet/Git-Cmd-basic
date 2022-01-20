@@ -64,7 +64,7 @@
 
 
 ## Branch
-<p>Without content or file branching is not effective. That means you have to have file and commited. Then the branching will work. The default branch name for local git-scm is <b>master</b>. But If you want to push your master branch data into <p>GitHub</p> then you need to change local branch name as main. You can also GitHub branch name. For that you need to go setting option of current repo. Then there have branch section, where the branch name can be editable</p>
+<p>Without content or file branching is not effective. That means you have to have file and commited. Then the branching will work. The default branch name for local git-scm is <b>master</b>. But If you want to push your master branch data into <b>GitHub</b> then you need to change local branch name as main. You can also GitHub branch name. For that you need to go setting option of current repo. Then there have branch section, where the branch name can be editable</p>
 
 1. <code>git branch</code>
 <p><code>git branch</code> is a git branch command which check how many branch have in the current directory & currently which branches you have in</p>
@@ -79,7 +79,7 @@
 <p><code>git checkout <branch name></code> is a git branch command which will change branch and will move into provided branch name if it created and exit</p>
 
 5. <code>`git branch -d <branch name>`</code>
-<p><code>git branch -d <branch name>is a git branch command which will delete branch but can not delete current brancg name.</code></p>
+<p><code>git branch -d <branch name></code>is a git branch command which will delete branch but can not delete current brancg name.</p>
 
 --------------------
 <code></code>
