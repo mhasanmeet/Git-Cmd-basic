@@ -87,9 +87,11 @@
 
 3. <code>git branch -vv</code> : Show upstream branches.
 
+5. <code>git branch -v</code> :
+
 4. <code>git push origin HEAD</code> : Use to push to the branch of the same name on the remote.
 
-5. <code>git clone --single-branch -b {branch name} {remote link}</code> :
+5. <code>git clone --single-branch -b {branch name} {remote link}</code> : Use to clone single specific branch from remote repo. 
 
 
 --------------------
