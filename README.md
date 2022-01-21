@@ -18,7 +18,11 @@
 
 2. <code>git --help</code> : Here you can found basic git commanand for daily needs. If you need any help from git related issue, you can also press this command.
 
-3. <code>git init</code> : means git initialization. By this git command we can initialize git environment in our working directory.
+3. <code>git help -a</code> : This command will show all available commands for helping purpose.
+
+4. <code>git help --help</code> : This command show all of the available options you can use.
+
+5. <code>git init</code> : means git initialization. By this git command we can initialize git environment in our working directory.
 
 
 ### Wokring with code
@@ -26,7 +30,7 @@
 
 2. <code>git add .</code> : command is use for adding file for next the git operation and make ready for git commit.
 
-4. <code>git commit</code> : is a git operation which is use for commiting the file into the git, means it is now ready for push into remote repository. Git commit will show VIM edit. To exit this editor you need to press # & then `:wq`. WQ means without quote. If you submit message with git commit then the next command will apply.
+4. <code>git commit</code> : is a git operation which is use for commiting the file into the git, means it is now ready for push into remote repository. Git commit will show VIM edit. To exit this editor you need to press # & then `:wq` , WQ means without quote. If you submit message with git commit then the next command will apply.
 
 5. <code>git commit -m "message"</code> : is same as 4  but in here you can pass your desired message the this operation.
 
@@ -34,9 +38,9 @@
 
 7. <code>git remote set-url origin {remote link}</code> : is a git command which is use for set remote origin link if current link is unavailable or deleted.
 
-8. <code>git merge</code> :
+8. <code>git merge</code> : This command is user for merge.
 
-9. <code>git pull</code> :
+9. <code>git pull</code> : This command is user for pull from remote repo.
 
 10. <code>git fetch</code> :
 
@@ -44,11 +48,9 @@
 
 12. <code>git log</code> :
 
-13. <code>git log</code> :
+13. <code>git log --stat</code> :
 
 14. <code>git commit --amend -m "message"</code> :
-
-15. <code>git log --stat</code> :
 
 
 ### Branch
@@ -60,19 +62,17 @@
 
 2. <code>git branch {branch name}</code> : is a git branch command which will create a branch in the current director
 
-3. <code>git branch -M/-m {branch name}</code> : is a git branch command which will merge existing current branch name to your provided name. -M or -m means mearge.
+3. <code>git branch -m {branch name}</code> : is a git branch command which will merge existing current branch name to your provided name. -m means mearge.
 
 4. <code>git checkout {branch name}</code> : is a git branch command which will change branch and will move into provided branch name if it created and exit.
 
-5. <code>git branch -d/-D {branch name}</code> : is a git branch command which will delete branch but can not delete current brancg name. You can use -d or -D as your wish.
+5. <code>git branch -d {branch name}</code> or <code>git branch --delete {branch name}</code> : is a git branch command which will delete branch but can not delete current branch name. You can use <code>-d</code> or <code>--delete</code> as your wish.
 
 6. <code>git switch {branch name}</code> : is a git branch command which is use for switch or move from one branch to another. In locally every branch can be have separate project. By switching you can move or switch from one branch to another by this command.
 
 
 ### Remote Branch
-1. <code>git clone --single-branch -b {branch name} {remote link}</code> : 
-
-2. 
+1. <code>git clone --single-branch -b {branch name} {remote link}</code> :
 
 
 --------------------
