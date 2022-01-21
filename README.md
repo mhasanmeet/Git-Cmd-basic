@@ -11,7 +11,17 @@
 
 5. <code>mkdir</code> : means make directory. This is use for create directory/folder</p>
 
-## Essentials Git Commands
+## Git Commands
+
+### Basic Git
+1. <code>git --version</code> : check git version. 
+
+2. <code>git --help</code> : here you can found basic git commanand for daily needs. If you need any help from git related issue, you can also press this command.
+
+3. <code>git init</code> : means git initialization. By this git command we can initialize git environment in our working directory 
+
+
+### Wokring with code
 1. <code>git init</code> : means git initialization. By this git command we can initialize git environment in our working directory</p>
 
 2. <code>git status</code> : is use for check git status, means if there any changes happened, you can get a status of git operation</p>
@@ -46,19 +56,26 @@
 ### Branch
 <p>Without content or file branching is not effective. That means you have to have file and commited. Then the branching will work. The default branch name for local git-scm is <b>master</b>. But If you want to push your master branch data into <b>GitHub</b> then you need to change local branch name as main.</p> 
 
-<p>You can also rename GitHub branch name. For that you need to go setting option of the current repo. Then there have branch section, where the branch name can be editable. But remember there should have one deafult branch, which bydefault the first one (if you the change the branch name though).</p>
+<p>You can also rename GitHub branch name. For that you need to go setting option of the current repo. Then there have branch section, where the branch name can be editable. But remember there should have one deafult branch, which by default the first one (if you the change the branch name though). If you changed branch name then Github will instruct or guide you how you can change your local env for continuous push pull</p>
 
 1. <code>git branch</code> : is a git branch command which check how many branch have in the current directory & currently which branches you have in</p>
 
-2. <code>git branch <branch name></code> :is a git branch command which will create a branch in the current director</p>
+2. <code>git branch <branch name></code> : is a git branch command which will create a branch in the current director</p>
 
 3. <code>git branch -M/-m<branch name></code> : is a git branch command which will merge existing current branch name to your provided name. -M or -m means mearge.</p>
 
 4. <code>git checkout<branch name></code> : is a git branch command which will change branch and will move into provided branch name if it created and exit</p>
 
-5. <code>git branch -d<branch name></code> : is a git branch command which will delete branch but can not delete current brancg name.</p>
+5. <code>git branch -d/-D<branch name></code> : is a git branch command which will delete branch but can not delete current brancg name. You can use -d or -D as your wish</p>
 
 6. <code>git switch<branch name></code> : is a git branch command which is use for switch or move from one branch to another. In locally every branch can be have separate project. By switching you can move or switch from one branch to another by this command.</p>
+
+
+### Remote Branch
+1. <code>git clone --single-branch -b <branch name> <remote link></code> : 
+
+2. 
+
 
 --------------------
 <code></code>
