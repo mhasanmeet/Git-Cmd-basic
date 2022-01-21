@@ -52,6 +52,12 @@
 
 14. <code>git commit --amend -m "message"</code> :
 
+15. <code>git rm {file name}</code> : Use for remove a file. After this you need to git commit & push to remote repo. 
+
+16. <code>git rm .</code> : This command will remove or delete all the file from current branch. After this need to commit and push the file(s). After then the file will be tracked and you can switch or move from one branch to another. Commit is important for switching the branch. 
+
+
+
 
 ### Branch
 <p>Without content or file branching is not effective. That means you have to have file and commited. Then the branching will work. The default branch name for local git-scm is <b>master</b>. But If you want to push your master branch data into <b>GitHub</b> then you need to change local branch name as main.
@@ -70,9 +76,20 @@
 
 6. <code>git switch {branch name}</code> : is a git branch command which is use for switch or move from one branch to another. In locally every branch can be have separate project. By switching you can move or switch from one branch to another by this command.
 
+7. <code>git push origin HEAD</code> : Is a git push command if you create a new branch but do not have Remote (origin) exist yet. This command will push and create a branch as same as local name. 
+
+
 
 ### Remote Branch
-1. <code>git clone --single-branch -b {branch name} {remote link}</code> :
+1. <code>git config --get remote.origin.url</code> : Show remote repository URL.
+
+2. <code>git remote show origin<code> : Show remote repo branches. 
+
+3. <code>git branch -vv</code> : Show upstream branches.
+
+4. <code>git push origin HEAD</code> : Use to push to the branch of the same name on the remote.
+
+5. <code>git clone --single-branch -b {branch name} {remote link}</code> :
 
 
 --------------------
