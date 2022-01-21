@@ -83,7 +83,7 @@
 ### Remote Branch
 1. <code>git config --get remote.origin.url</code> : Show remote repository URL.
 
-2. <code>git remote show origin<code> : Show remote repo branches. 
+2. <code>git remote show origin</code> : Show remote repo branches. 
 
 3. <code>git branch -vv</code> : Show upstream branches.
 
