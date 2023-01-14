@@ -11,6 +11,8 @@
 
 5. <code>mkdir</code> : means make directory. This is use for create directory/folder.
 
+6. You can run multiple command at once, like <code>mkdir code && cd code && npm init -y && code .</code> In here we run multiple command at once with the help of && (and). The operation here is: create a code directory and then move into that directory and then create a npm inital empty project file and then open this directory into vscode editor. 
+
 ## Git Commands
 
 ### Basic Git
@@ -30,34 +32,31 @@
 
 2. <code>git add .</code> : command is use for adding file for next the git operation and make ready for git commit.
 
-4. <code>git commit</code> : is a git operation which is use for commiting the file into the git, means it is now ready for push into remote repository. Git commit will show VIM edit. To exit this editor you need to press # & then `:wq` , WQ means without quote. If you submit message with git commit then the next command will apply.
+3. <code>git commit</code> : is a git operation which is use for commiting the file into the git, means it is now ready for push into remote repository. Git commit will show VIM edit. To exit this editor you need to press # & then `:wq` , WQ means without quote. If you submit message with git commit then the next command will apply.
 
-5. <code>git commit -m "message"</code> : is same as 4  but in here you can pass your desired message the this operation.
+4. <code>git commit -m "message"</code> : is same as 3  but in here you can pass your desired message the this operation.
 
-6. <code>git remote add origin {remote link}</code> : is a git command in where we add remote repository link in the command.
+5. <code>git remote add origin {remote link}</code> : is a git command in where we add remote repository link in the command.
 
-7. <code>git remote set-url origin {remote link}</code> : is a git command which is use for set remote origin link if current link is unavailable or deleted.
+6. <code>git remote set-url origin {remote link}</code> : is a git command which is use for set remote origin link if current link is unavailable or deleted.
 
-8. <code>git merge</code> : This command is user for merge.
+7. <code>git merge</code> : This command is user for merge.
 
-9. <code>git pull</code> : This command is user for pull from remote repo.
+8. <code>git pull</code> : This command is user for pull from remote repo.
 
-10. <code>git fetch</code> :
+9. <code>git fetch</code> :
 
-11. <code>git fetch -v</code> :
+10. <code>git fetch -v</code> :
 
-12. <code>git log</code> :
+11. <code>git log</code> :
 
-13. <code>git log --stat</code> :
+12. <code>git log --stat</code> :
 
-14. <code>git commit --amend -m "message"</code> :
+13. <code>git commit --amend -m "message"</code> :
 
-15. <code>git rm {file name}</code> : Use for remove a file. After this you need to git commit & push to remote repo. 
+14. <code>git rm {file name}</code> : Use for remove a file. After this you need to git commit & push to remote repo. 
 
-16. <code>git rm .</code> : This command will remove or delete all the file from current branch. After this need to commit and push the file(s). After then the file will be tracked and you can switch or move from one branch to another. Commit is important for switching the branch. 
-
-
-
+15. <code>git rm .</code> : This command will remove or delete all the file from current branch. After this need to commit and push the file(s). After then the file will be tracked and you can switch or move from one branch to another. Commit is important for switching the branch. 
 
 ### Branch
 <p>Without content or file branching is not effective. That means you have to have file and commited. Then the branching will work. The default branch name for local git-scm is <b>master</b>. But If you want to push your master branch data into <b>GitHub</b> then you need to change local branch name as main.
@@ -79,7 +78,6 @@
 7. <code>git push origin HEAD</code> : Is a git push command if you create a new branch but do not have Remote (origin) exist yet. This command will push and create a branch as same as local name. 
 
 
-
 ### Remote Branch
 1. <code>git config --get remote.origin.url</code> : Show remote repository URL.
 
@@ -92,7 +90,3 @@
 4. <code>git push origin HEAD</code> : Use to push to the branch of the same name on the remote.
 
 5. <code>git clone --single-branch -b {branch name} {remote link}</code> : Use to clone single specific branch from remote repo. 
-
-
---------------------
-<code></code>
