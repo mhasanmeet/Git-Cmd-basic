@@ -44,19 +44,17 @@
 
 8. <code>git pull</code> : This command is user for pull from remote repo.
 
-9. <code>git fetch</code> :
+9. <code>git fetch</code> : The git fetch command will downloads commits, files, and refs from a remote repository into local repo
 
-10. <code>git fetch -v</code> :
+10. <code>git log</code> : This command will show recent git commit history.
 
-11. <code>git log</code> :
+11. <code>git log --stat</code> : This command will show git commit where how many and much files changes.
 
-12. <code>git log --stat</code> :
+14. <code>git commit --amend -m "message"</code> : `amend` is use for uncommit most recent git commit. 
 
-13. <code>git commit --amend -m "message"</code> :
+15. <code>git rm {file name}</code> : Use for remove a file. After this you need to git commit & push to remote repo. 
 
-14. <code>git rm {file name}</code> : Use for remove a file. After this you need to git commit & push to remote repo. 
-
-15. <code>git rm .</code> : This command will remove or delete all the file from current branch. After this need to commit and push the file(s). After then the file will be tracked and you can switch or move from one branch to another. Commit is important for switching the branch. 
+16. <code>git rm .</code> : This command will remove or delete all the file from current branch. After this need to commit and push the file(s). After then the file will be tracked and you can switch or move from one branch to another. Commit is important for switching the branch. 
 
 ### Branch
 <p>Without content or file branching is not effective. That means you have to have file and commited. Then the branching will work. The default branch name for local git-scm is <b>master</b>. But If you want to push your master branch data into <b>GitHub</b> then you need to change local branch name as main.
@@ -85,8 +83,20 @@
 
 3. <code>git branch -vv</code> : Show upstream branches.
 
-5. <code>git branch -v</code> :
+5. <code>git branch -v</code> : show branch and recent commit.
 
 4. <code>git push origin HEAD</code> : Use to push to the branch of the same name on the remote.
 
 5. <code>git clone --single-branch -b {branch name} {remote link}</code> : Use to clone single specific branch from remote repo. 
+
+## Effective Git Commit Message, check: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+* For new Feature: `"🚀 FEAT: Add new functionality."`
+* For fixing: `"🛠️ FIX: Fixing things."`
+* Style Update: `"💄 STYLE: Update the styles."`
+* Refactoring the code: `"🔧 REFACTOR: Refactor the code to improve readability."`
+* For test message: `🧪 TEST: new test for this functionality.`
+* For update dependency: `"🧹 CHORE: Update dependencies in package.json."`
+* Optimize Images: `"🏎️ PERF: Optimize image loading for faster performance."`
+* Fixing issue for pipeline: `"🚦 CI: Fix issue with test pipeline on things."`
+* Build the code: `"🏗️ BUILD: Add new script for building the production version of the app."`
